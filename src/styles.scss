@@ -9,10 +9,43 @@
 // Be sure that you only ever include this mixin once!
 @include mat-core();
 
+$custom-red: (
+    50 : #f3e0e0,
+    100 : #e0b3b3,
+    200 : #cc8080,
+    300 : #b84d4d,
+    400 : #a82626,
+    500 : #990000,
+    600 : #910000,
+    700 : #860000,
+    800 : #7c0000,
+    900 : #6b0000,
+    A100 : #ff9a9a,
+    A200 : #ff6767,
+    A400 : #ff3434,
+    A700 : #ff1a1a,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$trello-clone-primary: mat-palette($mat-indigo);
+$trello-clone-primary: mat-palette($custom-red);
 $trello-clone-accent: mat-palette($mat-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
@@ -25,6 +58,10 @@ $trello-clone-theme: mat-light-theme($trello-clone-primary, $trello-clone-accent
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($trello-clone-theme);
+
+
+
+
 
 /* You can add global styles to this file, and also import other style files */
 
