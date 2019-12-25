@@ -122,8 +122,13 @@
               "devServerTarget": "trello-clone:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "trello-clone"
 }

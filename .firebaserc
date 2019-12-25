@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-web-77082": {
+      "hosting": {
+        "trello-clone": [
+          "my-web-77082"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-web-77082"
+  }
+}

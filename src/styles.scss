@@ -52,7 +52,7 @@ $trello-clone-accent: mat-palette($mat-pink, A200, A100, A400);
 $trello-clone-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$trello-clone-theme: mat-light-theme($trello-clone-primary, $trello-clone-accent, $trello-clone-warn);
+$trello-clone-theme: mat-dark-theme($trello-clone-primary, $trello-clone-accent, $trello-clone-warn);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
