@@ -1,6 +1,6 @@
 # TrelloClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+You can see the final result with this link: https://my-web-77082.firebaseapp.com/
 
 ## Development server
 
